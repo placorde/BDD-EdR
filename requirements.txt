@@ -8,3 +8,4 @@ python-dateutil
 streamlit
 plotly
 streamlit-option-menu
+openpyxl
