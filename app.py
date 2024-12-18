@@ -38,7 +38,7 @@ perf_bench = pd.read_excel("Perf_Bench.xlsx") # Performance du benchmark
 perf_fonds = pd.read_excel("Perf_Fonds.xlsx") # Performance du fonds 
 indice_reference= pd.read_excel("USGG10YR Index.xlsx")
 fixing_BDF = pd.read_excel("BDD_EDR_Taux_Change_EUR_USD_BDF.xlsx") # Indice de référence
-passif = pd.read_excel("Passif_Année_2_Albert School.xlsx") # Information sur la collecte des fonds 
+passif = pd.read_excel("Passif_Année_2_AlbertSchool.xlsx") # Information sur la collecte des fonds 
 
 
 
