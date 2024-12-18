@@ -3,16 +3,8 @@ pandas
 matplotlib
 numpy
 pygwalker
-requests
 python-dotenv
 python-dateutil
 streamlit
 plotly
 streamlit-option-menu
-dotenv
-dateutil
-plotly.express
-pygwalker.api.streamlit
-datetime
-plotly.graph_objects
-re
