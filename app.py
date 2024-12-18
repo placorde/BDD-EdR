@@ -29,7 +29,6 @@ col2.markdown(
 #load dataset
 
 positions = pd.read_excel("Positions_BigData.xlsx") # Positions du fonds  
-passif = pd.read_excel("Passif_Année_2_Albert School.xlsx") # Information sur la collecte des fonds 
 bench_lines = pd.read_excel("Bench_Lignes.xlsx") # Composition mensuelle du benchmark 
 caracteristiques_parts = pd.read_excel("Caracteristiques_Parts.xlsx") # En lien avec le banchmark 
 fixing = pd.read_excel("Fixing.xlsx") # Taux de change des devises ; attention : nettoyage nécessaire 
@@ -39,6 +38,8 @@ perf_bench = pd.read_excel("Perf_Bench.xlsx") # Performance du benchmark
 perf_fonds = pd.read_excel("Perf_Fonds.xlsx") # Performance du fonds 
 indice_reference= pd.read_excel("USGG10YR Index.xlsx")
 fixing_BDF = pd.read_excel("BDD_EDR_Taux_Change_EUR_USD_BDF.xlsx") # Indice de référence
+passif = pd.read_excel("Passif_Année_2_Albert School.xlsx") # Information sur la collecte des fonds 
+
 
 
 # Charger les données
