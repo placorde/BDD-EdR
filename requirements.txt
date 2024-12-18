@@ -9,5 +9,5 @@ streamlit
 plotly
 streamlit-option-menu
 openpyxl
-sklearn
+scikit-learn
 lightgbm
