@@ -29,7 +29,7 @@ col2.markdown(
 #load dataset
 
 positions = pd.read_excel("Positions_BigData.xlsx") # Positions du fonds  
-passif = pd.read_excel("Passif_Année 2_Albert School.xlsx") # Information sur la collecte des fonds 
+passif = pd.read_excel("Passif_Année_2_Albert School.xlsx") # Information sur la collecte des fonds 
 bench_lines = pd.read_excel("Bench_Lignes.xlsx") # Composition mensuelle du benchmark 
 caracteristiques_parts = pd.read_excel("Caracteristiques_Parts.xlsx") # En lien avec le banchmark 
 fixing = pd.read_excel("Fixing.xlsx") # Taux de change des devises ; attention : nettoyage nécessaire 
@@ -2275,14 +2275,14 @@ with tab3:
 
 
 
-    # Trier les données par la colonne 'Prédiction'
-    df_pred_sorted = df_pred.sort_values(by='Prédiction', ascending=False)
+        # Trier les données par la colonne 'Prédiction'
+        df_pred_sorted = df_pred.sort_values(by='Prédiction', ascending=False)
 
-    # Appliquer le style
-    styled_df = df_pred_sorted.style.applymap(highlight_pred, subset=['Prédiction'])
+        # Appliquer le style
+        styled_df = df_pred_sorted.style.applymap(highlight_pred, subset=['Prédiction'])
 
-    # Afficher la table dans Streamlit
-    st.dataframe(styled_df, height=600)
+        # Afficher la table dans Streamlit
+        st.dataframe(styled_df, height=600)
 
     
 
