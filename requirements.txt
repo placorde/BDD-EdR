@@ -11,4 +11,3 @@ streamlit-option-menu
 openpyxl
 scikit-learn
 lightgbm
-sklearn
