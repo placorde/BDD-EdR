@@ -30,7 +30,7 @@ Ce projet a pour objectif d’analyser et de visualiser les performances des fon
 * Python (Pandas, NumPy, Matplotlib, Plotly)
 * Streamlit pour l’interface utilisateur
 * Scikit-learn pour la modélisation
-* * Git pour le versioning
+* Git pour le versioning
 
 ### Captures d'écran 
 *![image](https://github.com/user-attachments/assets/efefd1b7-5238-4393-babf-66514ed65dfb)*
