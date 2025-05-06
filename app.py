@@ -28,17 +28,17 @@ col2.markdown(
     )
 #load dataset
 
-positions = pd.read_excel("Positions_BigData.xlsx") # Positions du fonds  
-bench_lines = pd.read_excel("Bench_Lignes.xlsx") # Composition mensuelle du benchmark 
-caracteristiques_parts = pd.read_excel("Caracteristiques_Parts.xlsx") # En lien avec le banchmark 
-fixing = pd.read_excel("Fixing.xlsx") # Taux de change des devises ; attention : nettoyage nécessaire 
-frais = pd.read_excel("Frais.xlsx") # Frais payés par les fonds quotidiennement 
-taux = pd.read_excel("Historique_Taux.xlsx") # Taux de change des devises ; attention : nettoyage nécessaire 
-perf_bench = pd.read_excel("Perf_Bench.xlsx") # Performance du benchmark 
-perf_fonds = pd.read_excel("Perf_Fonds.xlsx") # Performance du fonds 
-indice_reference= pd.read_excel("USGG10YR Index.xlsx")
-fixing_BDF = pd.read_excel("BDD_EDR_Taux_Change_EUR_USD_BDF.xlsx") # Indice de référence
-passif = pd.read_excel("Passif_Annee2.xlsx") # Information sur la collecte des fonds 
+positions = pd.read_excel("data/Positions_BigData.xlsx") # Positions du fonds  
+bench_lines = pd.read_excel("dataBench_Lignes.xlsx") # Composition mensuelle du benchmark 
+caracteristiques_parts = pd.read_excel("data/Caracteristiques_Parts.xlsx") # En lien avec le banchmark 
+fixing = pd.read_excel("data/Fixing.xlsx") # Taux de change des devises ; attention : nettoyage nécessaire 
+frais = pd.read_excel("data/Frais.xlsx") # Frais payés par les fonds quotidiennement 
+taux = pd.read_excel("data/Historique_Taux.xlsx") # Taux de change des devises ; attention : nettoyage nécessaire 
+perf_bench = pd.read_excel("data/Perf_Bench.xlsx") # Performance du benchmark 
+perf_fonds = pd.read_excel("data/Perf_Fonds.xlsx") # Performance du fonds 
+indice_reference= pd.read_excel("data/USGG10YR Index.xlsx")
+fixing_BDF = pd.read_excel("data/BDD_EDR_Taux_Change_EUR_USD_BDF.xlsx") # Indice de référence
+passif = pd.read_excel("data/Passif_Annee2.xlsx") # Information sur la collecte des fonds 
 
 
 
