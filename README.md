@@ -6,7 +6,7 @@ Ce projet a pour objectif d’analyser et de visualiser les performances des fon
 
 *  Suivre l’évolution mensuelle de ratios clés (Sharpe, Alpha, Volatilité, etc.) sur des périodes mobiles de 12 mois.
 *  Visualiser l’historique de performance par type d’action ou de fonds.
-*  Intégrer des analyses prédictives (LSTM) pour simuler les trajectoires futures des positions.
+*  Intégrer des analyses prédictives pour simuler les trajectoires futures des positions.
 *  Construire des dashboards interactifs pour faciliter l’interprétation des résultats.
 
 ### 🧩 Données utilisées
