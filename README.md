@@ -22,7 +22,6 @@ Ce projet a pour objectif d’analyser et de visualiser les performances des fon
 * Moyennes mensuelles calculées par ratio et par gliding year.
 * Visualisation interactive via **Plotly** et **Streamlit**.
 * Segmentation automatique des colonnes par catégories (`1`, `2`, etc.) pour une organisation claire dans le dashboard.
-* Intégration possible de modèles prédictifs (LSTM) pour la prévision de mouvements de position.
 
 
 ### 🚀 Technologies
